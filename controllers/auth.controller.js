@@ -5,7 +5,6 @@ import jwt from 'jsonwebtoken';
 const { JWT_SECRET } = process.env;
 
 class authController {
-  //Register user
   async register(req, res) {
     try {
       const { username, password } = req.body;
