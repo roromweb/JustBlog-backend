@@ -3,7 +3,7 @@ import User from '../models/User.js';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import Comment from '../models/Comment.js';
-// Create Post
+
 export const createPost = async (req, res) => {
   try {
     const { title, text } = req.body;
